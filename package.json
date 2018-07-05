@@ -8,9 +8,9 @@
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-google-fonts": "0.0.4",
+    "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "^1.0.26",
     "react-favicon": "0.0.14",
-    "gatsby-plugin-react-helmet": "^2.0.10",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
@@ -33,7 +33,7 @@
     "prettier": "^1.12.0"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/shivamp25/shivampadaliya-site.git"
+    "type": "git",
+    "url": "https://github.com/shivamp25/shivampadaliya-site.git"
   }
 }
