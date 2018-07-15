@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'gatsby-link';
-// import logo from '../images/ewh.svg';
 import '../styles/header.scss';
 
 const NavHeader = props => {
