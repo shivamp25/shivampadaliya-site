@@ -32,8 +32,11 @@ const IndexPage = () => (
                 Hey! 👋 I'm <span className="t-span">Shivam Padaliya</span>
             </h1>
             <h2 className="t-regular t-mtb-15">
-                <span className="t-span t-bold">Software Engineer</span> at HUTN GROUP
+                <span className="t-span">Software Engineer</span>
             </h2>
+            <h3 className="t-regular t-mtb-15">
+                <span>I develop frontend code, backend services, APIs and databases.</span>
+            </h3>
             <SocialLinks links={links} />
         </div>
     </div>

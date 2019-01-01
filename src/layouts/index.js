@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import Favicon from 'react-favicon';
 import NavHeader from '../components/NavHeader';
 import Footer from '../components/Footer';
 import { siteMeta, aboutMe, aboutWebsite } from '../seo/seo';
 import './index.scss'
+import favicon from '../images/favicon.ico';
 
 class Layout extends React.Component {
     render() {
@@ -12,6 +14,7 @@ class Layout extends React.Component {
         // add Header and Footer, pass props
         return (
             <div>
+                <Favicon url={favicon} />
                 <Helmet
                     title={siteMeta.title}
                     meta={[
